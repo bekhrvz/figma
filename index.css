@@ -1,0 +1,413 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+
+    background: linear-gradient(90deg, #182033 -0.61%, #263552 52.32%, #192236 100%);
+
+}
+
+header {
+
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav {
+
+    display: flex;
+}
+
+nav .logo {
+
+    width: 409px;
+    padding-top: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+nav .nav1 {
+
+    justify-content: space-between;
+    display: flex;
+    width: 409px;
+    padding-top: 75px;
+    
+} 
+nav .nav1:hover{
+transition: transition 0.4s;
+}
+
+
+header nav .nav1 ul li span a {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+header nav .nav1 ul li a {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    transform: scaleX(0.4s);
+} 
+header nav .nav1 ul li a:hover{
+    transition: transform 0.4s;
+}
+
+menu {
+
+    padding-top: 43px;
+
+}
+
+menu .menu1 {
+
+    width: 819px;
+    height: 304px;
+    background: #DBDBDB;
+    margin: auto;
+    text-align: center;
+
+}
+
+menu .menu1 h1 {
+
+    padding-top: 75px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.5px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #2551A1;
+
+}
+
+menu .menu1 h2 {
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #2551A1;
+
+}
+
+section {
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+
+}
+
+section .katta {
+
+    width: 542px;
+    height: 259px;
+    background: #FFFFFF
+}
+
+section .katta h1 {
+
+    padding-top: 39px;
+    padding-left: 37px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2551A1;
+
+}
+
+section .katta p {
+
+    text-align: justify;
+    padding-top: 21px;
+    padding-left: 37px;
+    padding-right: 46px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+
+}
+
+section .katta button {
+
+    margin-top: 40px;
+    margin-left: 39px;
+    width: 100px;
+    height: 35px;
+    left: 328px;
+    top: 647px;
+    background: blue;
+    border: #2452A0;
+    border-radius: 6px;
+
+}
+
+section .katta button h4 a {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+
+}
+
+section .katta1 {
+
+    padding-left: 20px;
+
+}
+
+section .qiyin {
+
+    display: flex;
+    padding-top: 17px;
+
+}
+
+section .kichkina1 {
+
+    width: 261px;
+    height: 122px;
+
+}
+
+section .kichkina2 {
+
+    margin: auto;
+    margin-right: 16px;
+    width: 122px;
+    height: 120px;
+    background: #011D44;
+
+}
+
+section .kichkina2 h3 {
+
+    text-align: center;
+    padding-top: 78px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+
+section .kichkina3 {
+
+    margin: auto;
+    width: 122px;
+    height: 120px;
+    background: #CBE2F0;
+
+}
+
+section .kichkina3 .call img {
+
+    display: flex;
+    margin: auto;
+    padding-top: 33px;
+
+}
+
+section .kichkina3 .call h3 {
+
+    padding-top: 12px;
+    padding-left: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #2551A1;
+
+}
+
+footer .ingichka {
+
+    margin: auto;
+    margin-top: 17px;
+    width: 822px;
+    height: 57px;
+    background: #F07321;
+
+}
+
+footer .ingichka .ingichka1 {
+
+    display: flex;
+
+}
+
+footer .ingichka .ingichka1 h3 {
+
+    padding-top: 19px;
+    padding-left: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.2px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+footer .ingichka .ingichka1 h5 {
+
+    padding-top: 19px;
+    padding-left: 52px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.4px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+footer .ingichka1 button {
+
+    margin-top: 12px;
+    margin-left: 80px;
+    border-radius: 6px;
+    width: 93px;
+    height: 35px;
+    left: 1003px;
+    top: 747px;
+    background: brown;
+    border: #CF4900;
+
+}
+
+
+footer .ingichka1 button h4 a {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+
+}
+
+footer .footerrasm {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    margin: auto;
+
+}
+
+footer .footerrasm .box {
+
+    padding: 9px;
+
+}
+
+
+
+footer hr {
+
+    margin: auto;
+    margin-top: 25px;
+    width: 822px;
+    height: 3px;
+    background-color: #000000;
+    border-color: #000000;
+
+}
+
+footer .finish {
+
+    display: flex;
+    width: 822px;
+    height: 70px;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+footer .finish p {
+
+    padding-top: 42px;
+    padding-bottom: 96px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+
+}
+
+footer .finish p a {
+
+    color: rgba(133, 189, 225, 1);
+
+}
+
+footer .finish .fin1 h5 {
+
+    padding-top: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+
+} 
+.finish i{
+    background: #000000; 
+    color: blue; 
+    border: 30px;
+} 
+
+.rasm{
+    position: absolute;
+     left: 64%; 
+    right: 40%; 
+    top: 87%; 
+    margin: 5px;
+}
